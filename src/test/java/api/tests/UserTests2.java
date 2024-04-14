@@ -77,7 +77,7 @@ public class UserTests2 {
         //checking data after update
         Response responseAfterUpdate= UserEndPoints2.readUser(this.userPayload.getUsername());
         Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
-        logger.info("******************************* User Info Updated ***********************************");
+        logger.info("****************************** User Info Updated ***********************************");
 
     }
 
